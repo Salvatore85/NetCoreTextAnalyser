@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 Service Layer", "10 Service Layer", "{B87FE6FA-3DCB-4A59-A59D-EB57FE1FB3D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20 Business Layer", "20 Business Layer", "{22ABC7E1-907D-4E60-B133-D65C837279BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "30 Unit Test", "30 Unit Test", "{18FEEACE-DC9F-47EA-9847-6AAD8B696702}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextAnalyser.API", "TextAnalyser.API\TextAnalyser.API.csproj", "{0F965544-D640-43B6-A54A-4A747096A173}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextAnalyser.BL", "TextAnalyser.BL\TextAnalyser.BL.csproj", "{33E7FFA8-E85C-48D2-AB35-EF727DC9A9AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F965544-D640-43B6-A54A-4A747096A173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F965544-D640-43B6-A54A-4A747096A173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F965544-D640-43B6-A54A-4A747096A173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F965544-D640-43B6-A54A-4A747096A173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33E7FFA8-E85C-48D2-AB35-EF727DC9A9AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33E7FFA8-E85C-48D2-AB35-EF727DC9A9AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33E7FFA8-E85C-48D2-AB35-EF727DC9A9AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33E7FFA8-E85C-48D2-AB35-EF727DC9A9AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0F965544-D640-43B6-A54A-4A747096A173} = {B87FE6FA-3DCB-4A59-A59D-EB57FE1FB3D0}
+		{33E7FFA8-E85C-48D2-AB35-EF727DC9A9AD} = {22ABC7E1-907D-4E60-B133-D65C837279BA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDC8DD3A-03C8-470C-8D77-41ABAAD7C1B4}
+	EndGlobalSection
+EndGlobal
