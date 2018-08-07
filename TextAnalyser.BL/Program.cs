@@ -8,10 +8,14 @@ namespace TextAnalyser.BL
         {
             string testText = "Hallo dit is een test zin.!!";
 
-            var sample = new TextStatsGenerator();
+            var sample = new SortingText();
 
+            var SortedList = sample.Sort(testText, 1);
 
-            Console.WriteLine(sample.SpecialCharactersCounter(testText));
+            foreach (var word in SortedList)
+            {
+                Console.WriteLine(word);
+            }
 
             Console.ReadLine();
         }

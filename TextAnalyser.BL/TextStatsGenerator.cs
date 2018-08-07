@@ -21,5 +21,12 @@ namespace TextAnalyser.BL
 
             return specialCharacters;
         }
+
+        public int CountSpaces(string txt)
+        {
+            int spaces = txt.Count(Char.IsWhiteSpace);
+
+            return spaces;
+        }
     }
 }

@@ -3,15 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10 Service Layer", "10 Service Layer", "{B87FE6FA-3DCB-4A59-A59D-EB57FE1FB3D0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.0 Service Layer", "2.0 Service Layer", "{B87FE6FA-3DCB-4A59-A59D-EB57FE1FB3D0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20 Business Layer", "20 Business Layer", "{22ABC7E1-907D-4E60-B133-D65C837279BA}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.0 Business Layer", "3.0 Business Layer", "{22ABC7E1-907D-4E60-B133-D65C837279BA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "30 Unit Test", "30 Unit Test", "{18FEEACE-DC9F-47EA-9847-6AAD8B696702}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9.0", "9.0", "{18FEEACE-DC9F-47EA-9847-6AAD8B696702}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextAnalyser.API", "TextAnalyser.API\TextAnalyser.API.csproj", "{0F965544-D640-43B6-A54A-4A747096A173}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextAnalyser.API", "TextAnalyser.API\TextAnalyser.API.csproj", "{0F965544-D640-43B6-A54A-4A747096A173}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextAnalyser.BL", "TextAnalyser.BL\TextAnalyser.BL.csproj", "{33E7FFA8-E85C-48D2-AB35-EF727DC9A9AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextAnalyser.BL", "TextAnalyser.BL\TextAnalyser.BL.csproj", "{33E7FFA8-E85C-48D2-AB35-EF727DC9A9AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.0 Presentation Layer", "1.0 Presentation Layer", "{2CC2447A-20CE-448A-BF13-2A96765AE7CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.0 Data Acces Layer", "4.0 Data Acces Layer", "{C13D8F09-E20B-4063-BAE7-00AC05FB5773}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.0 Data Layer", "5.0 Data Layer", "{EE2623D9-4E14-49B8-9DB1-81B8A3FC50DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.0 Service Agent Layer", "6.0 Service Agent Layer", "{918C4AAE-96FF-4A5A-B269-A6F39641ADCD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
