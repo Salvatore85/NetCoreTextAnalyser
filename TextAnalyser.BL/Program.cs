@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Security.Authentication.ExtendedProtection;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace TextAnalyser.BL
 {
@@ -6,13 +8,16 @@ namespace TextAnalyser.BL
     {
         static void Main(string[] args)
         {
+            //DI Setup
+            var serviceProvider = new ServiceCollection();
+
             string testText = "Hallo dit is een test zin.!!";
 
-            var sample = new SortingText();
+            //var sample = new SortingText();
 
-            var SortedList = sample.Sort(testText, 1);
+            var sortedList = SortingText.Sort(testText, 1);
 
-            foreach (var word in SortedList)
+            foreach (var word in sortedList)
             {
                 Console.WriteLine(word);
             }

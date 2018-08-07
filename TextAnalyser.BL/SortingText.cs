@@ -5,9 +5,9 @@ using System.Text;
 
 namespace TextAnalyser.BL
 {
-    class SortingText
+    public class SortingText
     {
-        public List<string> Sort(string txt, int option)
+        public static List<string> Sort(string txt, int option)
         {
             switch (option)
             {
@@ -15,8 +15,6 @@ namespace TextAnalyser.BL
                 {
                     var words = txt.Split().ToArray();
                     var wordsList = words.ToList();
-
-                    wordsList.Sort();
 
                     return wordsList;
                 }
